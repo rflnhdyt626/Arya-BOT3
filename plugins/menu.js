@@ -85,11 +85,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿ Database : %totalreg Nomor
 ╰═══════════════
 
-╭════•›「 Sosmed 」
-╿ Shopee : Starblood.store
-╿ Instagram : @rflnhdyt
-╰═══════════════
-
 ╭════•›「 Rules 」
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
