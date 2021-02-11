@@ -75,7 +75,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let before = conn.menu.before || `
 ╭════•›「 ${conn.getName(conn.user.jid)} 」
 ╿  Hai, %name !
-╿ Total : *%exp XP*
 ╿ Tersisa : *%limit Limit*
 ╿
 ╿ Hari : *%week*
@@ -89,7 +88,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
 ╿• Ingin Donasi ?
-╿    => Hubungi #creator
+╿    => Hubungi .creator
 ╰═══════════════
 
 %readmore`
