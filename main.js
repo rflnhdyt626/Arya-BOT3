@@ -71,7 +71,7 @@ if (!opts['test']) setInterval(() => {
   if (JSON.stringify(global.DATABASE.data) == lastJSON) conn.logger.info('Database is up to date')
   else {
     global.DATABASE.save()
-    conn.logger.info('Done saving database,YouTube: Drawl Nag!')
+    conn.logger.info('Done saving database')
     lastJSON = JSON.stringify(global.DATABASE.data)
   }
 }, 60 * 1000) // Save every minute
@@ -269,7 +269,7 @@ conn.handler = async function (m) {
     }
   }
 }
-conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject\n\nJika sudah bantu follow kami..\nDi *Instagram:* @arpunchs\nDan Youtube: *Drawl Nag*'
+conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject'
 conn.bye = 'Selamat tinggal @user!'
 conn.onAdd = async function ({ m, participants }) {
   let chat = global.DATABASE._data.chats[m.key.remoteJid]
