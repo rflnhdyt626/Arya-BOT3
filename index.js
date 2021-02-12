@@ -9,11 +9,6 @@ CFonts.say('RFL BOT\nWhatsApp Bot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'Drawl Nag BOT' By @${package.author.name || package.author}`, {
-  font: 'console',
-  align: 'center',
-  gradient: ['red', 'magenta']
-})
 
 function start(file) {
   let args = [path.join(__dirname, file), ...process.argv.slice(2)]
