@@ -95,9 +95,10 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╭════•›「 Iklan 」
 ╿• BOT WHATSAPP MURAH
 ╿• YOUTUBE PREMIUM 1 BULAN Rp 5.000
-╿• YOUTUBE PREMIUM 1 TAHUN Rp 50.000
+╿• YOUTUBE PREMIUM 1 TAHUN Rp 27.000
 ╿• Minat?
 ╿   => Hubungi http://wa.me/6281313994677
+╿   => Shopee : starblood.store
 ╰═══════════════
 
 %readmore`
