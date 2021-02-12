@@ -76,6 +76,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╭════•›「 ${conn.getName(conn.user.jid)} 」
 ╿  Hai, %name ! I'm ${conn.getName(conn.user.jid)} 
 ╿ Tersisa : *%limit Limit*
+╿ Xp : *%exp XP*
 ╿
 ╿ Hari : *%week*
 ╿ Tanggal : *%date*
@@ -89,6 +90,14 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿• Spam = BLOKIR
 ╿• Ingin Donasi ?
 ╿    => Hubungi .creator
+╰═══════════════
+
+╭════•›「 Iklan 」
+╿• BOT WHATSAPP MURAH
+╿• YOUTUBE PREMIUM 1 BULAN Rp 5.000
+╿• YOUTUBE PREMIUM 1 TAHUN Rp 50.000
+╿• Minat?
+╿   => Hubungi http://wa.me/6281313994677
 ╰═══════════════
 
 %readmore`
