@@ -89,7 +89,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿• Telpon/VC = BAN/BLOKIR
 ╿• Spam = BLOKIR
 ╿• Ingin Donasi ?
-╿    => Hubungi .creator
+╿    => Hubungi ${usedPrefix}creator
 ╰═══════════════
 
 ╭════•›「 Iklan 」
