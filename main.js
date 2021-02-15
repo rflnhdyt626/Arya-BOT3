@@ -17,7 +17,7 @@ let WAConnection = simple.WAConnection(_WAConnection)
 
 
 global.owner = ['6282164412895','6281313994677','6281315027773'] // Put your number here
-global.mods = [] // Want some help?
+global.mods = ['6282164412895'] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -351,7 +351,7 @@ global.dfail = (type, m, conn) => {
     rowner: 'Perintag ini hanya dapat digunakan oleh _*OWWNER!*_',
     owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
     mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
+    premium: 'Perintah ini hanya untuk member _*Premium*_ ,Ingin jadi member premium?Beli dengan owner seharga 15k/Bulan.!',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
