@@ -249,3 +249,25 @@
 {"result": "https://1.bp.blogspot.com/-_9chWDS77Is/X7VYwlGw5kI/AAAAAAAAS5s/PRnZm9V5u3cEMT-OwuDIr3_XF1_TaLOCACNcBGAsYHQ/s600/dark_jokesidn_121696249_363131481595281_3700648336828892881_n.jpg"},
 {"result": "https://1.bp.blogspot.com/-aGDmusVoN80/X7VYxISLXnI/AAAAAAAAS50/KfBbWiv8wYwsVkcQSmB1dmIsD3i55wCtQCNcBGAsYHQ/s600/dark_jokesidn_121707967_818993542237450_797756872194099431_n.jpg"}
 ]
+
+handler.help = ['darkjokes']
+handler.tags = ['Fun']
+handler.customPrefix = /(\?$)/
+handler.command = /^darkjokes$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.limit = true
+
+module.exports = handler
+
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)]
+}
