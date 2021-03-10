@@ -30,6 +30,9 @@ function start(file) {
       case 'uptime':
         p.send(process.uptime())
         break
+  case 'ban':
+    reply('Mampus keban')
+    break
     }
   })
   .on('error', e => {
