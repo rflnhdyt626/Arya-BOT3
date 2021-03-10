@@ -1,11 +1,12 @@
+let name = conn.getName(m.sender)
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-Waalaikumsalam
+Waalaikumsalam kak %name
 `.trim(), m)
 }
 handler.help = ['']
 handler.tags = ['']
-handler.command = /^(Assalamualaikum)$/i
+handler.command = (Assalamualaikum)
 handler.owner = false
 handler.mods = false
 handler.premium = false
