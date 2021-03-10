@@ -73,8 +73,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭════•›「 ${conn.getName(conn.user.jid)} 」
-╿  Hai, %name ! I'm ${conn.getName(conn.user.jid)} 
+╭════•›「 RFL-BOT 」
+╿  Hai, %name ! I'm RFL-BOT
 ╿ Tersisa : *%limit Limit*
 ╿ Xp : *%exp XP*
 ╿
