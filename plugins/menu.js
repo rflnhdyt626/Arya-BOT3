@@ -93,6 +93,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╰═══════════════
 
 ╭════•›「 Iklan 」
+╿• MAU MASUKIN BOT KE GRUP ANDA? HUBUNGI #owner
 ╿• BIKIN BOT WHATSAPP MURAH
 ╿• YOUTUBE PREMIUM 1 BULAN Rp 2.499
 ╿• YOUTUBE PREMIUM 1 TAHUN Rp 30.000
