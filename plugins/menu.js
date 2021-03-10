@@ -94,8 +94,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 
 ╭════•›「 Iklan 」
 ╿• BIKIN BOT WHATSAPP MURAH
-╿• YOUTUBE PREMIUM 1 BULAN Rp 5.000
-╿• YOUTUBE PREMIUM 1 TAHUN Rp 27.000
+╿• YOUTUBE PREMIUM 1 BULAN Rp 2.499
+╿• YOUTUBE PREMIUM 1 TAHUN Rp 30.000
 ╿• Minat?
 ╿   => Hubungi http://wa.me/6281313994677
 ╿   => Shopee : starblood.store
