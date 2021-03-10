@@ -3,7 +3,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['Assalamualaikum']
 handler.tags = ['kepo']
-handler.command = (Assalamualaikum)
+handler.command = 'Assalamualaikum'
 handler.owner = false
 handler.mods = false
 handler.premium = false
