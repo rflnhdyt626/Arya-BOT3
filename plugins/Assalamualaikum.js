@@ -18,11 +18,11 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     })
 
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-  conn.reply(m.chat, `Waalaikumsalam`.trim(), m)
+  conn.reply(m.chat, `Waalaikumsalam kak %name`.trim(), m)
 }
 handler.help = ['Assalamualaikum']
 handler.tags = ['kepo']
-handler.command = /^(Assalamualaikum kak %name)$/i
+handler.command = 
 handler.owner = false
 handler.mods = false
 handler.premium = false
