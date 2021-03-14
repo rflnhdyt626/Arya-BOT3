@@ -92,15 +92,13 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╿    => Hubungi #creator
 ╰═══════════════
 
-╭════•›「 Iklan 」
-╿• MAU MASUKIN BOT KE GRUP ANDA? HUBUNGI #owner
-╿• BIKIN BOT WHATSAPP MURAH
-╿• YOUTUBE PREMIUM 1 BULAN Rp 2.499
-╿• YOUTUBE PREMIUM 1 TAHUN Rp 30.000
-╿• Minat?
-╿   => Hubungi http://wa.me/6281313994677
-╿   => Shopee : starblood.store
-╰═══════════════
+「 IKLAN 」
+✎◞YT PREMIUM 1 BULAN 2.499
+✎◞YT PREMIUM 1 TAHUN 30.000
+✎◞JASA SHARE KE BANYAK GC TERMURAH  HUBUNGI OWNER UNTUK CEK HARGA  
+NOTE : 1x SHARE LANGSUNG SHARE KE SEMUA GC
+99% KEUNTUNGAN MENINGKAT
+✎◞ MINAT? HUBUNGI OWNER : wa.me/6281313994677 ATAU KLIK LINK DI PROFIL RFL-BOT
 
 %readmore`
     let header = conn.menu.header || '╭════•›「 %category 」'
